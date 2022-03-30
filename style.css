@@ -1,0 +1,120 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body,html{
+    height:100%;
+}
+
+.topbar{
+    position:fixed;
+    background-color: blueviolet;    
+    padding:1em;
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    color:white
+}
+
+.topbar-title{
+    font-size: 4em;
+}
+
+.add{
+    background-color: rgb(155, 197, 92);
+    padding:1em;
+    border:none;
+    font-size: 1.25em;
+    border-radius: 0.5em;
+}
+
+.add:hover{
+    background-color: rgb(113, 149, 58);
+}
+
+.card-container{
+    display: flex;
+    height:100%;
+    padding-top:7em;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+    overflow-y: scroll;
+}
+
+.card{
+    background-color: blueviolet;
+    margin-top:1em;
+    padding:1em;
+    width:70%;
+    max-width:800px;
+    min-width:300px;
+    font-size: 1.5em;
+    border-radius: 1em;
+}
+
+.card-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title{
+    color:white;
+}
+
+.card-delete{
+    padding:1em;
+    border:none;
+    border-radius: 0.5em;
+}
+
+.card-delete:hover{
+    background-color: rgb(87, 31, 139);
+}
+
+.form-inactive{
+    display:none;
+}
+
+.form-active{
+    display:flex;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.561);
+}
+
+.form{
+    background-color: blueviolet;
+    border-radius: 1em;
+    padding:2em;
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+}
+
+.form-inf{
+    font-size: 1.5em;
+}
+
+.form-desc{
+    height:5em;
+    resize: none;
+}
+
+.form-submit{
+    background-color: rgb(155, 197, 92);
+    padding:0.5em;
+    border:none;
+    font-size: 1.25em;
+    border-radius: 0.5em;
+}

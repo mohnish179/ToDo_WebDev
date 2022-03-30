@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>ToDo</title>
+</head>
+<body>
+    <header class="topbar">
+        <h1 class="topbar-title">ToDo</h1>
+        <button class="add" onclick="onadd(event)">+</button>
+    </header>
+    <div class="card-container">
+    </div>
+    <div class="modal-container form-inactive">
+        <div class="form modal">
+            <h1 class="form-head">Add new todo:</h1>
+            <input type="text" class="form-inf form-title" placeholder="Title" >
+            <textarea type="text" class="form-inf form-desc" placeholder="Description"></textarea>
+            <button class="form-inf form-submit" onclick="add(event)" >+</button>
+        </div>
+    </div>
+</body>
+</html>
